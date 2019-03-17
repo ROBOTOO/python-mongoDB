@@ -41,7 +41,7 @@ def one_hour():
                "Products":12,
                "time":c,
            }   
-        b=b+1   
+       
         time.sleep(2)      
         rec_id2=hour.insert_one(pro_hour) 
        
