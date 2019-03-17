@@ -33,7 +33,7 @@ def present():
        
    
 def one_hour(): 
-    global b	
+   	
     while True:       
         c=time.asctime()
        
@@ -44,7 +44,7 @@ def one_hour():
         b=b+1   
         time.sleep(2)      
         rec_id2=hour.insert_one(pro_hour) 
-        return b
+       
       
 def one_day(): 	
     
